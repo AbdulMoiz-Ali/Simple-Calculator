@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>calculator</h1>
+    <!-- <div class="calulator">
+      <div id="dis"></div><br>
+      <div class="number">
+        <button onclick="oneclick()" value="1" id="one">1</button>
+        <button onclick="twoclick()" value="2" id="two">2</button>
+        <button onclick="threeclick()" value="3" id="three">3</button>
+        <button onclick="fourclick()" value="4" id="four">4</button>
+        <button onclick="fiveclick()" value="5" id="five">5</button>
+        <button onclick="sixclick()" value="6" id="six">6</button>
+        <button onclick="sevenclick()" value="7" id="seven">7</button>
+        <button onclick="eightclick()" value="8" id="eight">8</button>
+        <button onclick="nineclick()" value="9" id="nine">9</button>
+        <button onclick="zeroclick()" value="0" id="zero">0</button>
+        <button onclick="divideclick()" value="/" id="divide">/</button>
+        <button onclick="multiplyclick()" value="*" id="multiply">*</button>
+        <button onclick="subclick()" value="-" id="subtraction">-</button>
+        <button onclick="additionclick()" value="+" id="addition">+</button>
+        <button onclick="totalclick()" value="=" id="total">=</button>
+        <button onclick="deletclick()" value="AC" id="delet">AC</button>
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div id="display-screen">0</div>
+      <div class="button-container">
+        <button class="cal-btn" onclick="btnClicker('AC')">AC</button>
+        <button class="cal-btn" onclick="clearInput()">Del</button>
+        <button class="cal-btn" onclick="btnClicker('%')">%</button>
+        <button class="cal-btn" onclick="btnClicker('/')">/</button>
+        <button class="cal-btn" onclick="btnClicker('7')">7</button>
+        <button class="cal-btn" onclick="btnClicker('8')">8</button>
+        <button class="cal-btn" onclick="btnClicker('9')">9</button>
+        <button class="cal-btn" onclick="btnClicker('*')">X</button>
+        <button class="cal-btn" onclick="btnClicker('4')">4</button>
+        <button class="cal-btn" onclick="btnClicker('5')">5</button>
+        <button class="cal-btn" onclick="btnClicker('6')">6</button>
+        <button class="cal-btn" onclick="btnClicker('-')">-</button>
+        <button class="cal-btn" onclick="btnClicker('1')">1</button>
+        <button class="cal-btn" onclick="btnClicker('2')">2</button>
+        <button class="cal-btn" onclick="btnClicker('3')">3</button>
+        <button class="cal-btn" onclick="btnClicker('+')">+</button>
+        <button class="cal-btn" id="btn-zero" onclick="btnClicker('0')">
+          0
+        </button>
+        <button class="cal-btn" onclick="btnClicker('.')">.</button>
+        <button class="cal-btn" onclick="result()">=</button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
