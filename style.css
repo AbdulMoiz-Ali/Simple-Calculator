@@ -1,0 +1,68 @@
+.container {
+  background-color: black;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  height: 500px;
+  width: 315px;
+  padding: 25px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border: 3px solid silver;
+}
+#display-screen {
+  background-color: black;
+  width: 300px;
+  color: white;
+  text-align: end;
+  font-size: 72px;
+  overflow: hidden;
+}
+.button-container {
+  /* background-color: lightgreen; */
+  width: 350px;
+  height: 300px;
+}
+.cal-btn {
+  background-color: #313131;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 3px;
+  font-size: x-large;
+  font-weight: bolder;
+  border: none;
+  color: white;
+}
+body {
+  /* background-image: url(rGGpnY.jp); */
+  background-color: lightskyblue;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.zero-btn {
+  width: 148px;
+  height: 70px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: none;
+}
+.funbtn {
+  background-color: #f69a09;
+  border: none;
+}
+.light {
+  background-color: #a0a0a0;
+  color: black;
+  border: none;
+}
+button:focus {
+  transform: scale(1.2);
+}
